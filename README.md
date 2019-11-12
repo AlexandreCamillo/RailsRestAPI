@@ -1,24 +1,5 @@
-# README
+# Rails REST API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Essa API foi desenhada com uma simples CRUD usando o padrão REST
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Para consumir a API visite a [documentação da API](https://documenter.getpostman.com/view/4045681/SW7T8BaP).
