@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
 
+  get '', to: 'application#index'
+
   # Platforms resource
   get '/platforms/:id', to: 'platforms#show'
-  get 'platforms/', to: 'platforms#list'
+  get "platforms/", to: 'platforms#list'
   post 'platforms/', to: 'platforms#create'
   put 'platforms/:id', to: 'platforms#update'
   delete 'platforms/:id', to: 'platforms#delete'
