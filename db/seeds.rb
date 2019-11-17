@@ -9,7 +9,7 @@
 
 50.times  do
 	Platform.create({
-		name: Faker::Name.unique.name,
+		name:  Faker::Company.unique.name,
 		email: Faker::Internet.email
 	})
 end
