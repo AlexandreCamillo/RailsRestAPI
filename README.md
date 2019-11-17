@@ -4,7 +4,19 @@ Essa API foi desenhada com uma `CRUD de Plataformas`, cada uma contendo obrigato
 
 Acesse a API pelo domínio: https://rest-platform-api.herokuapp.com/
 
+## Resposta da API
+Todos os retornos da API seguem o padrão:
+``` json
+{
+    "message": "",
+    "data": {}
+}
+```
+* message - Carrega uma mensagem complementar ao status da resposta
+* data - Quando há sucesso na requisição carrega os dados solicitados ou auxiliares da ação e quando há erros de validação envia detalhes dos erros
+
 Veja detalhes dos Endpoints com exemplos de sucesso e erros na [documentação da API](https://documenter.getpostman.com/view/4045681/SW7T8BaP).
+
 
 Antes de testar em development e test não se esqueça de configurar a autorização do BD Postgresql em `config/database.yml`
 
