@@ -31,12 +31,7 @@ Para testá-la é necessário criar o banco de dados de testes e migrar as tabel
 
 Para executar o teste rode o comando:
 ```sh
-    $ rspec spec
-```
-
-Caso deseje ver todos os testes que estão sendo feito execute o comando com `--format documentation`:
-```sh
-    $ rspec spec --format documentation
+    $ rails spec
 ```
 
 Os testes irão verificar:
